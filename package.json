@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^2.2.1",
+    "react-dom": "17.0.2",
+    "react-simple-keyboard": "^3.4.90",
+    "reactjs-popup": "^2.0.5",
+    "reactstrap": "^9.0.1",
+    "styled-components": "^5.3.5"
   }
 }

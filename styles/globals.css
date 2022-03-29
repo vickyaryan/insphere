@@ -2,15 +2,185 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Roboto,sans-serif;
+  color: #0f2749;
+  font-size: .875rem;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: #8d8e90;
+    text-decoration: auto;
 }
-
+h3{
+  text-align: center;
+  margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0f2749;
+}
 * {
   box-sizing: border-box;
+}
+.about {
+  margin: 40px 0px
+}
+.about_Image {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.StyledModalBody{
+  padding-top: 10px;
+}
+.StyledModalHeader{
+  display: flex;
+  justify-content: flex-end;
+  /* position: absolute; */
+  margin: -16px 0px;
+    right: 1rem;
+    top: 1rem;
+    color: #737374;
+    text-decoration: auto;
+    font-size: 25px;
+}
+.StyledModal{
+  background: white;
+  width: 550px;
+  border-radius: 15px;
+  padding: 15px 2.5rem;;
+}
+.StyledModalOverlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.btn{
+  color: #706a6a;
+    background: #eae3e3;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+.button-pop {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-pop:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-pop:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-pop:focus-visible {
+  box-shadow: none;
+}
+
+.input-Keyboard{
+  margin: 10px 20px;
+    padding: 7px 14px;
+    border: 1px solid #d6cfcf;
+    border-radius: 5px;
+    text-align: center;
+}
+.Keyboard{
+  padding: 10px 20px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.modal-header{
+  text-align: center;
+  display: block;
+}
+
+
+
+
+.subText{
+  color: #0f2749!important;
+    font-family: Roboto,sans-serif!important;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.name-input{
+  display: flex;
+    flex-direction: column;
+}
+.form-text {
+  margin-top: 0.25rem;
+  font-size: .875em;
+  color: #6c757d;
+}
+
+.py-3 {
+  padding-top: 0.75rem!important;
+  padding-bottom: 0.75rem!important;
+}
+
+.form-check-input {
+  border: 2px solid #0f2749 !important;
+}
+.form-check-input:checked {
+  background-color: #0f2749 !important;
+  border-color: #fff !important;
+}
+.form-select{
+  border:1px solid #0f2749 !important
+}
+.form-contro{
+  padding: 0.375rem 0.75rem;
+  color: #0f2749;
+  border-radius: 5px;
+    border: 1px solid #0f2749;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #0f2749 !important;
+  border-color: #0f2749 !important;
+  width: 100%;
+    border-radius: 30px !important;
+    padding: 0.5rem 1.5rem;
+    min-height: 2.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+.form-label {
+  margin-bottom: 0.5rem;
+}
+.btn1{
+  width:auto;
+  margin:20px 10px
 }
