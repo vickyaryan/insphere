@@ -9,6 +9,7 @@ import Modal from "./model";
 import ModelTemplet from "./modelTemplet";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Keyboard from "./Keyboard";
+import Draggable from './draggable'
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
@@ -22,6 +23,7 @@ export default function Home() {
       </button>
       <Modal onClose={() => setShowModal(false)} show={showModal} />
       {/* <ModelTemplet /> */}
+      {/* <Draggable /> */}
     </>
   );
 }

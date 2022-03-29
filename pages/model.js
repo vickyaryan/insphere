@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import Keyboard, { KeyboardReactInterface } from "react-simple-keyboard";
 import "react-simple-keyboard/build/css/index.css";
+import Draggable from "react-draggable";
 
 import ReactDOM from "react-dom";
 export default function model({ show, onClose, children, title }) {
@@ -126,7 +127,9 @@ export default function model({ show, onClose, children, title }) {
         </div>
 
         {keyboardVisibility && (
+          <Draggable>
           <div className="Keyboard">
+          <a href="#" onClick={()=>setKeyboardVisibility(false)} className="StyledModalHeader keyboard-close">x</a>
             <Keyboard
               // keyboardRef={(r) => (keyboardRef = r)}
               layoutName={layoutName}
@@ -136,6 +139,7 @@ export default function model({ show, onClose, children, title }) {
               newLineOnEnter={false}
             />
           </div>
+          </Draggable>
         )}
       </div>
   ) : null;
