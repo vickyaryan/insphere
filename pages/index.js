@@ -21,7 +21,7 @@ export default function Home() {
         Open Modal
       </button>
       <Modal onClose={() => setShowModal(false)} show={showModal} />
-      <ModelTemplet />
+      {/* <ModelTemplet /> */}
     </>
   );
 }
