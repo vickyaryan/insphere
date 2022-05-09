@@ -5,9 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "just"
   },
   "dependencies": {
+    "ag-grid-community": "^27.1.0",
+    "ag-grid-react": "^27.1.0",
     "bootstrap": "^5.1.3",
     "next": "12.1.0",
     "react": "17.0.2",
@@ -18,5 +21,8 @@
     "reactjs-popup": "^2.0.5",
     "reactstrap": "^9.0.1",
     "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "just": "^0.1.8"
   }
 }
