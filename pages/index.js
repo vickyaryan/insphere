@@ -41,7 +41,8 @@ export default function Home() {
 
   const convert = () => {
     fetch("https://meity-auth.ulcacontrib.org/ulca/apis/v0/model/compute",requestOptions)
-      .then((response) => response.json()).then((data) => setdataTextResult(data.outputText));
+      .then((response) => response.json()).then((data) => setdataTextResult(data.outputText),
+      setdataTextResult('Loding....'));
   }
 
   const SelectLAng = (item) => {
